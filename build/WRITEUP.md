@@ -57,12 +57,11 @@ The dataset presents most of the labels being associated with cars and pedestria
 
 Images are taken in different environments(subway/highway/city) with different weather conditions(foggy/sunny) and different times of the day(day/night).The bounding boxes are red for the vehicles, green for the cyclists and blue for the pedestrians.
 
-![img1](images from Exploratory data analysis/img1.png)![img2](images from Exploratory data analysis/img2.png)![img3](images from Exploratory data analysis/img3.png)![img4](images from Exploratory data analysis/img4.png)![img5](images from Exploratory data analysis from Exploratory data analysis/img5.png)![img6](images from Exploratory data analysis/img6.png)![img7](images from Exploratory data analysis/img7.png)![img8](v/img8.png)![img9](images from Exploratory data analysis/img9.png)![img10](images from Exploratory data analysis/img10.png)
-
+Images are contained in "images from Exploratory data analysis" folder
 The analysis is updated in the "Exploratory Data Analysis.ipynb" notebook.
 Further analysis have been done in the "Explore augmentations.ipynb" notebook. Hereby, I will attach some images from the database, under different circumstances:
+Images are contained in "images from Explore augmentations" folder
 
-![img1](images from Explore augmentations/img1.png)![img2](images from Explore augmentations/img2.png)![img3](images from Explore augmentations/img3.png)![img4](images from Explore augmentations/img4.png)![img5](images from Explore augmentations/img5.png)![img6](images from Explore augmentations/img6.png)![img7](images from Explore augmentations/img7.png)![img8](images from Explore augmentations/img8.png)
 #### Cross validation
 
 Using 100 tfrecord files, first shuffle the data randomly and then split into training,testing and validation sets. The reason for random shuffling is to
